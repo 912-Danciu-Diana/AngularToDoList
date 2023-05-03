@@ -1,0 +1,75 @@
+/* Style the todo list container */
+.todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style each todo item */
+  .todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    width: 80%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the todo item ID */
+  .id {
+    font-weight: bold;
+    margin-right: 16px;
+  }
+  
+  /* Style the todo item content */
+  .content {
+    flex-grow: 1;
+    margin-right: 16px;
+  }
+  
+  /* Style the remove button */
+  .delete{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background-color: #ff6659;
+  }
+  
+  .todo.done .content{
+    text-decoration: line-through;
+  }
+
+  /* Style the "Add Todo" button */
+.todo-submit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-submit:hover {
+    background-color: #5fbf61;
+  }
+
+  
+.todo-input {
+    /* match the height of the todo-submit button */
+    height: 35px;
+    /* add additional styles as needed... */
+}
+  
+  
+
+ 
